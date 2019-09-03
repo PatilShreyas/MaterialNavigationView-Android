@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="illegal_arg_message">Argument Must be one of the Following:\n{\n MaterialNavigationView.ITEM_STYLE_ROUND_RIGHT or\n MaterialNavigationView.ITEM_STYLE_ROUND_RECTANGLE\n}</string>
+</resources>
