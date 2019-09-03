@@ -1,18 +1,8 @@
-# Material Navigation View for Android 📱
+# Material NavigationView for Android 📱
 
 📱 Android Library to implement Rich, Beautiful Material Navigation View for your project with Material Design Guidelines. Easy to use.
 
-<table style="width:100%">
-  <tr>
-    <th><b>1. Round Right Corner Style<b></b></th>
-    <th>2. Round Rectangle Style</th> 
- 
-  </tr>
-  <tr>
-    <td><img src="Images/RoundRight.png"/></td>
-    <td><img src="Images/RoundRect.png"/></td> 
-  </tr>
-</table>
+![](Images/GitHub.png)
 
 
 # Table of Contents:
