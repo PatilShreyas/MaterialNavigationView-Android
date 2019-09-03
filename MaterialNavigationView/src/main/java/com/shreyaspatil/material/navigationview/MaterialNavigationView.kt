@@ -12,9 +12,7 @@ import com.shreyaspatil.MaterialNavigationView.R
 /**
  * It creates Material navigation menu for application. The menu contents can be populated by a
  * menu resource file.
- * NavigationView is typically placed inside a {@link androidx.drawerlayout.widget.DrawerLayout}.
  */
-
 class MaterialNavigationView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet,

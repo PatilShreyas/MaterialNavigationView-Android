@@ -41,6 +41,8 @@ dependencies {
     // Material Navigation View Library
     implementation project(path: ':MaterialNavigationView')
 
+    //implementation 'com.shreyaspatil:MaterialNavigationView:1.0'
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
