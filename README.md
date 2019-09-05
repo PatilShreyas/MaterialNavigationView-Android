@@ -30,7 +30,7 @@ In this demo, we will populate The menu contents by a menu resource file.
 <a name="prerequisite"></a>
 ### Prerequisite
 #### Gradle
-In `Build.gradle` of app module, include these dependencies. If you want to show animations, include *Lottie* animation library.
+In `Build.gradle` of app module, include these dependencies.
 ```groovy
 dependencies {
 
