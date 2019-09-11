@@ -23,4 +23,7 @@
     <dimen name="nav_item_background_inset_top_sq">4dp</dimen>
     <dimen name="nav_item_background_inset_bottom_sq">4dp</dimen>
 
+    <dimen name="nav_item_background_inset_default">0dp</dimen>
+    <dimen name="nav_item_background_inset_right_default">4dp</dimen>
+    <dimen name="nav_item_background_radius_default">1dp</dimen>
 </resources>

@@ -50,12 +50,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val itemStyle = when (item.itemId) {
-            R.id.action_round_rect -> MaterialNavigationView.ITEM_STYLE_ROUND_RECTANGLE
-            R.id.action_round_right -> MaterialNavigationView.ITEM_STYLE_ROUND_RIGHT
-            else -> MaterialNavigationView.ITEM_STYLE_ROUND_RIGHT
+        when (item.itemId) {
+            R.id.action_default -> {
+                navView.setItemStyle(MaterialNavigationView.ITEM_STYLE_DEFAULT)
+            }
+            R.id.action_round_rect -> {
+                navView.setItemStyle(MaterialNavigationView.ITEM_STYLE_ROUND_RECTANGLE)
+            }
+            R.id.action_round_right -> {
+                navView.setItemStyle(MaterialNavigationView.ITEM_STYLE_ROUND_RIGHT)
+            }
         }
-        navView.setItemStyle(itemStyle)
         return false
     }
 

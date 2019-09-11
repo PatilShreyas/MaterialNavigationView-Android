@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_default"
+        android:orderInCategory="100"
+        android:title="Default"
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/action_round_rect"
         android:orderInCategory="100"

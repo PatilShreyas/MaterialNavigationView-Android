@@ -21,7 +21,7 @@
         app:headerLayout="@layout/nav_header_main"
         app:insetForeground="@android:color/transparent"
         app:itemIconTint="@color/navigation_item_tint"
-        app:itemStyle="rounded_right"
+        app:itemStyle="default_style"
         app:itemTextColor="@color/navigation_item_tint"
         app:menu="@menu/activity_main_drawer" />
 

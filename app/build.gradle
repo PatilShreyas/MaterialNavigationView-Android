@@ -9,7 +9,7 @@ android {
     buildToolsVersion "29.0.0"
     defaultConfig {
         applicationId "com.shreyaspatil.MaterialNavigationDrawer.example"
-        minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -26,8 +26,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation 'androidx.core:core-ktx:1.0.2'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.drawerlayout:drawerlayout:1.0.0'
@@ -39,7 +39,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.0.0'
 
     // Material Navigation View Library
-    implementation 'com.shreyaspatil:MaterialNavigationView:1.0'
+    implementation 'com.shreyaspatil:MaterialNavigationView:1.1'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

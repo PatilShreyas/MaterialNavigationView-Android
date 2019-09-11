@@ -4,8 +4,9 @@
 
     <declare-styleable name="MaterialNavigationView">
         <attr name="itemStyle" format="enum">
-            <enum name="rounded_right" value="1"/>
-            <enum name="rounded_rectangle" value="2"/>
+            <enum name="default_style" value="1" />
+            <enum name="rounded_right" value="2" />
+            <enum name="rounded_rectangle" value="3" />
         </attr>
     </declare-styleable>
 
