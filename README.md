@@ -35,7 +35,7 @@ In `Build.gradle` of app module, include these dependencies.
 dependencies {
 
     // Material Navigation View Library
-    implementation 'com.shreyaspatil:MaterialNavigationView:1.0'
+    implementation 'com.shreyaspatil:MaterialNavigationView:1.1'
 
     // Material Design Library
     implementation 'com.google.android.material:material:1.0.0'
@@ -91,6 +91,16 @@ As already mentioned, this class is inherited from `NavigationView`. You can use
 New important flag here is.
 - `itemStyle` - Points to a style of menu item of Navigation drawer. <br>
 There are currently 2 menu styles are defined as below
+    - `default_style`: This flag sets default design style to menu item of Navigation drawer as you can see below.<br>
+      <img src="Images/DefaultStyle.png" height="200"/>
+      
+      Implemented as follows:
+      ```xml
+          <com.shreyaspatil.material.navigationview.MaterialNavigationView
+            ...
+            app:itemStyle="default_style"/>
+      ```    
+    
     - `rounded_right`: This flag sets design to menu item of Navigation drawer as ***Rounded Corners at right*** as you can see below.<br>
       <img src="Images/RoundRightFull.png" height="200"/>
       
@@ -119,6 +129,7 @@ All the programmatic way of implementation of `MaterialNavigationView` is same a
 Two methods are added in this new class as follows..
 - ***`setItemStyle(int itemStyle)`*** : This method sets the Item Style of Menu in MaterialNavigationView at runtime.
    `itemStyle` should be one of the following constants :
+   - `MaterialNavigationView.ITEM_STYLE_DEFAULT`
    - `MaterialNavigationView.ITEM_STYLE_ROUND_RIGHT`
    - `MaterialNavigationView.ITEM_STYLE_ROUND_RECTANGLE`
 - ***`getItemStyle()`*** : It returns the value of item style of menu.
@@ -138,13 +149,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val itemStyle = when (item.itemId) {
-            R.id.action_round_rect -> MaterialNavigationView.ITEM_STYLE_ROUND_RECTANGLE
-            R.id.action_round_right -> MaterialNavigationView.ITEM_STYLE_ROUND_RIGHT
-            else -> MaterialNavigationView.ITEM_STYLE_ROUND_RIGHT
+        when (item.itemId) {
+            R.id.action_default -> {
+                navView.setItemStyle(MaterialNavigationView.ITEM_STYLE_DEFAULT)
+            }
+            R.id.action_round_rect -> {
+                navView.setItemStyle(MaterialNavigationView.ITEM_STYLE_ROUND_RECTANGLE)
+            }
+            R.id.action_round_right -> {
+                navView.setItemStyle(MaterialNavigationView.ITEM_STYLE_ROUND_RIGHT)
+            }
         }
-        navView.setItemStyle(itemStyle)
-        
         return false
     }
 }
