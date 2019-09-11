@@ -30,12 +30,12 @@ In this demo, we will populate The menu contents by a menu resource file.
 <a name="prerequisite"></a>
 ### Prerequisite
 #### Gradle
-In `Build.gradle` of app module, include these dependencies. If you want to show animations, include *Lottie* animation library.
+In `Build.gradle` of app module, include these dependencies.
 ```groovy
 dependencies {
 
     // Material Navigation View Library
-    implementation 'com.shreyaspatil:MaterialNavigationView:1.0.0'
+    implementation 'com.shreyaspatil:MaterialNavigationView:1.0'
 
     // Material Design Library
     implementation 'com.google.android.material:material:1.0.0'
