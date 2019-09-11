@@ -35,7 +35,7 @@ In `Build.gradle` of app module, include these dependencies.
 dependencies {
 
     // Material Navigation View Library
-    implementation 'com.shreyaspatil:MaterialNavigationView:1.0.0'
+    implementation 'com.shreyaspatil:MaterialNavigationView:1.0'
 
     // Material Design Library
     implementation 'com.google.android.material:material:1.0.0'
