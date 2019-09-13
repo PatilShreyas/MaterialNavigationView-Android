@@ -7,6 +7,7 @@
 
 # Table of Contents:
 > - [ Introduction ](#introduction)
+> - [ Requirements ](#requirements)
 > - [ Implementation ](#implementation)
 >    - [ Prerequisite ](#prerequisite)
 >    - [ Create `Activity.xml` ](#createActivityXML)
@@ -22,6 +23,12 @@
 It follows all Material Design Guidelines as stated [here](https://material.io). <br>
 `MaterialNavigationView` class in this library is inherited from [`com.google.android.material.navigation.NavigationView`](https://github.com/material-components/material-components-android/blob/master/docs/components/NavigationView.md) class. Just only difference is added extra design. <br>
 So, we can use it as it is. 
+
+<a name="requirements"></a>
+## Requirements
+- AndroidX
+- Minimum SDK API 19
+- Theme - Material Components
 
 <a name="implementation"></a>
 ## Implementation
@@ -90,37 +97,37 @@ We are creating `activity_main.xml`
 As already mentioned, this class is inherited from `NavigationView`. You can use all exisiting flags of that class. <br>
 New important flag here is.
 - `itemStyle` - Points to a style of menu item of Navigation drawer. <br>
-There are currently 2 menu styles are defined as below
-    - `default_style`: This flag sets default design style to menu item of Navigation drawer as you can see below.<br>
-      <img src="Images/DefaultStyle.png" height="200"/>
-      
-      Implemented as follows:
-      ```xml
-          <com.shreyaspatil.material.navigationview.MaterialNavigationView
-            ...
-            app:itemStyle="default_style"/>
-      ```    
-    
-    - `rounded_right`: This flag sets design to menu item of Navigation drawer as ***Rounded Corners at right*** as you can see below.<br>
-      <img src="Images/RoundRightFull.png" height="200"/>
-      
-      Implemented as follows:
-      ```xml
-          <com.shreyaspatil.material.navigationview.MaterialNavigationView
-            ...
-            app:itemStyle="rounded_right"/>
-      ```
-      
-    - `rounded_rectangle`: This flag sets design to menu item of Navigation drawer as ***Rounded Rectangular Corners*** as you can see below. <br>
-    
-      <img src="Images/RoundRectFull.png" height="200"/>
-      
-      Implemented as follows:
-      ```xml
-          <com.shreyaspatil.material.navigationview.MaterialNavigationView
-            ...
-            app:itemStyle="rounded_rectangle"/>
-      ```
+There are currently 3 menu styles are defined as below
+<table style="width:100%">
+  <tr>
+    <th>Flag Value</th>
+    <th>Description</th> 
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td>default_style</td>
+    <td>This flag sets design to default style to menu item of Navigation drawer.</td> 
+    <td><img src="Images/DefaultStyle.png"/></td>
+  </tr>    
+  <tr>
+    <td>rounded_right</td>
+    <td>This flag sets design to menu item of Navigation drawer as <b>Rounded Corners at right</b></td> 
+    <td><img src="Images/RoundRightFull.png"/></td>
+  </tr>
+  <tr>
+    <td>rounded_rectangle</td>
+    <td>This flag sets design to menu item of Navigation drawer as <b>Rounded Rectangular Corners</b></td> 
+    <td><img src="Images/RoundRectFull.png"/></td>
+  </tr>  
+</table>
+
+Example as follows:
+   
+```xml
+    <com.shreyaspatil.material.navigationview.MaterialNavigationView
+        ...
+        app:itemStyle="rounded_right"/>
+ ```
       
 Thus, we have successfully implemented design styles of Menu items.      
 <a name="createActivityCode"></a>
