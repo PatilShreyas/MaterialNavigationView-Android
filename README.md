@@ -15,7 +15,9 @@
 >  
 > - [ Migrating from `NavigationView` ](#migrate)
 > - [ Fast Implementation ](#fastImplementation)
+> - [ Contribute ](#contribute)    
 > - [ Credits ](#credits)    
+> - [ License ](#license)    
 
 <a name="introduction"></a>
 ## Introduction
@@ -190,9 +192,19 @@ Want to use it fast? Then here it is..<br>
 In Android Studio, Right Click -> `New` -> `Activity` -> `Navigation Drawer Activity` and done.
 Then Change just package in layout file and class name in Activity code file and you're done. Run your app and see magic :rocket: 
 
+<a name="contribute"></a>
+## Contribute
+Let's develop with collaborations. We would love to have contributions by raising issues and opening PRs. Filing an issue before PR is must.
+If you have design/UI related idea, you can also do contributions in that.
+See [Contributing Guidelines](CONTRIBUTING.md). 
 
+<a name="credits"></a>
 ## Credits
 This library is built using following open-source libraries.
 - [Material Components for Android](https://github.com/material-components/material-components-android)
 
 If you like this library, Please start this repo and share with someone who need it. You can contribute if you have any suggestions or ideas to improve it.
+
+<a name="license"></a>
+## License
+Project is published under the Apache 2.0 license. Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
