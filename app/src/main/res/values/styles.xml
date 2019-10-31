@@ -15,6 +15,12 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="NavigationDrawerStyle" parent="ThemeOverlay.AppCompat.navTheme">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/robotomedium</item>
+        <item name="android:colorControlHighlight">@android:color/transparent</item><!--Here Removes Rectangle-->
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />

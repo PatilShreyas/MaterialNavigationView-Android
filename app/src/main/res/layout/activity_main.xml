@@ -18,11 +18,16 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:overScrollMode="never"
+        app:itemIconPadding="12dp"
         app:headerLayout="@layout/nav_header_main"
         app:insetForeground="@android:color/transparent"
+        app:itemBackground="@drawable/activated_background.xml"
         app:itemIconTint="@color/navigation_item_tint"
         app:itemStyle="default_style"
         app:itemTextColor="@color/navigation_item_tint"
+        app:theme="@style/NavigationDrawerStyle"
         app:menu="@menu/activity_main_drawer" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
