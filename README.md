@@ -207,4 +207,4 @@ If you like this library, Please start this repo and share with someone who need
 
 <a name="license"></a>
 ## License
-Project is published under the Apache 2.0 license. Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
+Project is published under the GPL-3.0 license. Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
