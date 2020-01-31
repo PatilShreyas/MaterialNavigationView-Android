@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?attr/colorControlHighlight">
+    <item android:id="@android:id/mask">
+        <inset
+            android:insetTop="@dimen/nav_item_background_inset_top_sq"
+            android:insetBottom="@dimen/nav_item_background_inset_bottom_sq"
+            android:insetLeft="@dimen/nav_item_background_inset_left_sq"
+            android:insetRight="@dimen/nav_item_background_inset_right_sq">
+            <shape>
+                <corners
+                    android:bottomLeftRadius="@dimen/nav_item_background_corner_radius_left_sq"
+                    android:bottomRightRadius="@dimen/nav_item_background_corner_radius_right_sq"
+                    android:topLeftRadius="@dimen/nav_item_background_corner_radius_left_sq"
+                    android:topRightRadius="@dimen/nav_item_background_corner_radius_right_sq" />
+                <solid android:color="?attr/colorSecondary"/>
+            </shape>
+        </inset>
+    </item>
+    <item android:state_checked="true">
+        <inset
+            android:insetTop="@dimen/nav_item_background_inset_top_sq"
+            android:insetBottom="@dimen/nav_item_background_inset_bottom_sq"
+            android:insetLeft="@dimen/nav_item_background_inset_left_sq"
+            android:insetRight="@dimen/nav_item_background_inset_right_sq">
+            <shape>
+                <corners
+                    android:bottomLeftRadius="@dimen/nav_item_background_corner_radius_left_sq"
+                    android:bottomRightRadius="@dimen/nav_item_background_corner_radius_right_sq"
+                    android:topLeftRadius="@dimen/nav_item_background_corner_radius_left_sq"
+                    android:topRightRadius="@dimen/nav_item_background_corner_radius_right_sq" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <color android:color="@android:color/transparent" />
+    </item>
+</ripple>
