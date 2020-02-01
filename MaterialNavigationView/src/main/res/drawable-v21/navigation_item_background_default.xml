@@ -14,7 +14,6 @@
                     android:bottomRightRadius="@dimen/nav_item_background_radius_default"
                     android:topLeftRadius="@dimen/nav_item_background_radius_default"
                     android:topRightRadius="@dimen/nav_item_background_radius_default" />
-                <solid android:color="?attr/colorSecondary"/>
             </shape>
         </inset>
     </item>
