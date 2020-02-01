@@ -44,7 +44,7 @@ In `Build.gradle` of app module, include these dependencies.
 dependencies {
 
     // Material Navigation View Library
-    implementation 'com.shreyaspatil:MaterialNavigationView:1.1'
+    implementation 'com.shreyaspatil:MaterialNavigationView:1.2'
 
     // Material Design Library
     implementation 'com.google.android.material:material:1.0.0'
@@ -88,10 +88,11 @@ We are creating `activity_main.xml`
 
     <com.shreyaspatil.material.navigationview.MaterialNavigationView
         android:id="@+id/nav_view"
+        android:theme="@style/Widget.NavigationView.RippleEffect"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:itemStyle="rounded_right"
-        app:menu="@menu/activity_main_drawer" />
+        app:menu="@menu/activity_main_drawer"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
 ```

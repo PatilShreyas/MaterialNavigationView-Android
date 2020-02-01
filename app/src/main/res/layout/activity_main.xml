@@ -18,6 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:theme="@style/Widget.NavigationView.RippleEffect"
         app:headerLayout="@layout/nav_header_main"
         app:insetForeground="@android:color/transparent"
         app:itemIconTint="@color/navigation_item_tint"
