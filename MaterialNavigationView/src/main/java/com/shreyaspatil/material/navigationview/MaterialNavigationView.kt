@@ -77,7 +77,6 @@ class MaterialNavigationView @JvmOverloads constructor(
             ITEM_STYLE_ROUND_RIGHT -> R.drawable.navigation_item_background_rounded_right
             else -> R.drawable.navigation_item_background_rounded_rect
         }
-
         var background = AppCompatResources.getDrawable(context, resource)
         if (background != null) {
             val tint = AppCompatResources.getColorStateList(
@@ -92,7 +91,6 @@ class MaterialNavigationView @JvmOverloads constructor(
                 DrawableCompat.setTintList(background, tint)
             }
         }
-
         return background
     }
 
