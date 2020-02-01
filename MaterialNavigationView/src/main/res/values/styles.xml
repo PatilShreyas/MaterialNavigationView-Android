@@ -7,4 +7,6 @@
         <item name="itemHorizontalPadding">@dimen/nav_item_horizontal_padding</item>
     </style>
 
+    <style name="Widget.NavigationView.RippleEffect" parent=""/>
+
 </resources>
