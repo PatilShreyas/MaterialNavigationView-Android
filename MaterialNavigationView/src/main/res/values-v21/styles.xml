@@ -6,6 +6,7 @@
     <style name="Widget.NavigationView" parent="@style/Widget.MaterialComponents.NavigationView">
         <item name="itemBackground">@drawable/navigation_item_background_default</item>
         <item name="itemHorizontalPadding">@dimen/nav_item_horizontal_padding</item>
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
     </style>
 
     <style name="Widget.NavigationView.RippleEffect" parent="">

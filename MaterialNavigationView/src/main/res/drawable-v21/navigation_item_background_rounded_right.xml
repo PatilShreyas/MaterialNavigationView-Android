@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?attr/colorControlHighlight">
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/colorControlHighlight">
     <item android:id="@android:id/mask">
         <inset
             android:insetLeft="@dimen/nav_item_background_inset_left"
@@ -11,7 +12,6 @@
                     android:bottomRightRadius="@dimen/nav_item_background_corner_radius_right"
                     android:topLeftRadius="@dimen/nav_item_background_corner_radius_left"
                     android:topRightRadius="@dimen/nav_item_background_corner_radius_right" />
-                <solid android:color="?attr/colorSecondary"/>
             </shape>
         </inset>
     </item>
