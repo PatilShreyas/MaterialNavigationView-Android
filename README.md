@@ -1,3 +1,7 @@
+## Archived ⚠️
+
+Ideally there is no need to use this library when [Material 2](https://m2.material.io/components/navigation-drawer/android#anatomy) and [Material 3](https://github.com/material-components/material-components-android/blob/master/docs/components/NavigationDrawer.md#anatomy) is already there which support better design than what this library provides.
+
 # Material NavigationView for Android 📱
 
 📱 Android Library to implement Rich, Beautiful Material Navigation View for your project with Material Design Guidelines. Easy to use.
